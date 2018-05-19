@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="s.*"></include>
+</run>
+</groups>
+  <test  name="Test">
+    <classes>
+      <class name="implementGroups.DuplicateLead"/>
+      <class name="implementGroups.DeleteLead"/>
+      <class name="implementGroups.EditLeads"/>
+      <class name="implementGroups.LogIn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
